@@ -1,0 +1,75 @@
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.next {
+    z-index: 3;
+
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(../images/carousel/carousel_navright.png) no-repeat 0 0;
+}
+
+.prev {
+    z-index: 3;
+
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;    
+    background: transparent url(../images/carousel/carousel_navleft.png) no-repeat 0 0;
+}
+
+
+#carouselwrap{
+	margin-bottom: -1px;
+}
+.carouselcontainer {
+	position: relative;
+	color: #ddd;
+	font-size: 10px;
+    padding: 30px 67px 25px ;
+	overflow: hidden;
+}
+
+.carouselcontainer ul li{
+	
+	float: left;
+	text-align: center;
+    width: 72px;
+	height: 72px;
+	margin: 0 10px;
+	position: relative;
+}
+
+.carouselcontainer ul li img {
+	width: 70px;
+	border: 1px solid #89AF5B;
+}
+
+/* for text with hover over effect */
+	.carouselcontainer ul li a span.list-title{
+		color: #fff;
+		opacity:0.8;
+		filter:alpha(opacity=80);
+		padding: 1px;
+		line-height: 14px;
+		position: absolute;
+		background: #000;
+		width: 70px;
+		right: 1px;
+		bottom: 1px;
+		display: none;
+	}
+	.carouselcontainer ul li a:hover span.list-title {display: block;}
+
+
+

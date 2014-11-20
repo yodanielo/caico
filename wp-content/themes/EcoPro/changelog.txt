@@ -1,0 +1,28 @@
+****************************
+
+  EcoPro Release Notes: 
+
+****************************
+
+Version 1.1.2
+- Fixed unlocalized string
+- Options/version fixes
+- Small bug with excerpts
+
+Version 1.1.1
+- Localization bug fix
+
+Version 1.1.0
+- Options fixes
+- Feature page improvements
+- Theme welcome page 
+
+Version 1.0.6
+- Fix for posts on Carousel 
+
+Version 1.0.5
+- Bug fixes
+- Additional options 
+
+Version 1.0.0
+- First Release

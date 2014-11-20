@@ -1,0 +1,23 @@
+body{background:#031F38 url(../images/colors/blue-bg.jpg) repeat 0 0;}
+
+#spotlight .effect, #footer .effect { background:url("../images/colors/blue-spotlight-effect-bg.jpg") no-repeat scroll center top transparent;}
+
+#spotlight, #footer { background: #031F38 url("../images/colors/blue-spotlight-rpt-bg.jpg") repeat-x center top; }
+
+#featurenav a, #featurenav span { background:#010F1C; }
+
+#featurenav span.playpause { background:#010F1C;}
+
+a,.commentlist cite,.commentlist cite a, #sub_head #subnav .current_page_item a, #grandchildnav .current_page_item > a, .branding h1 a:hover, #nav ul li a:hover, #nav .current_page_item a, #nav .current_page_item a:hover, #nav .current_page_ancestor,#nav ul li a:active, .post-comments a:hover{ color:#075A99;}
+.carouselcontainer .content ul li img {	border:1px solid #666;}
+
+#welcome  {
+	background:url("../images/colors/blue-welcome-bg.jpg") repeat-x scroll left top #002C5C;
+	border-color:#0A162D #000 #000 #0A162D;
+	text-shadow:0 1px 0 #000;
+}
+
+#welcome .welcometext {
+	border-left:1px solid #687F9A;
+	border-top:1px solid #687F9A;
+}

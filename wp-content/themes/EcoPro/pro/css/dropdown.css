@@ -1,0 +1,73 @@
+
+
+/*  LEVEL ONE */
+#nav ul.dropdown {z-index:1000;position: relative;}
+#nav ul.dropdown a{
+    float:left;
+    width:auto;
+}
+#nav ul.dropdown a:hover, #nav ul.dropdown li.menuhover > a{
+	border:1px solid #eee;
+	border-bottom: none;
+	background: #fff;
+}
+
+#nav ul.dropdown ul li a, #nav ul.dropdown li.menuhover a{ 
+	background: #fff;
+}
+
+ul.dropdown ul li:hover {
+	display: block;
+	visibility:	inherit; /* fixes IE7 'sticky bug' */
+}
+
+/* STYLING FIRST DROP DOWN */
+	#nav ul.dropdown ul{
+		width: 220px;
+		display:none;
+		position: absolute; 
+		top: 100%; 
+		right: 0px; 
+		z-index: 1299;
+		border-right:1px solid #ddd;
+		border-left: 1px solid #ddd;
+		border-bottom: 3px solid #000;
+		zoom: 1;
+		background: #fff;
+	}
+	#nav ul.dropdown ul li{
+		z-index:1300;
+		position:relative;
+		font-weight: normal; 
+		float: none; 
+		margin: 0;
+		background: #ffffff;
+	}
+								
+#nav ul.dropdown ul li a{ 
+	width: 100%; 			/* IE 6 & 7 Needs Inline Block so set width 100% and do it... */
+	display: inline-block;  
+	background: #ffffff;
+	padding: 0;
+	border: 1px solid #fff;
+	border-bottom: none;
+} 
+
+#nav ul.dropdown ul li a span, #nav ul.dropdown ul li a:hover span, #nav ul.dropdown ul li.menuhover a span{ 
+	display: block;
+	padding: 13px 13px 11px;
+	
+} 
+#nav ul.dropdown li.current_page_ancestor ul a, #nav ul.dropdown li.current_page_item ul a,   #nav ul.dropdown ul li.current_page_ancestor ul a, #nav ul.dropdown ul li.current_page_item ul a{
+	background:#FFF;
+	color: #666;
+}
+#nav ul.dropdown ul li a:hover, #nav ul.dropdown li.current_page_ancestor ul a:hover, #nav ul.dropdown li.current_page_item ul a:hover,
+ #nav ul.dropdown ul li.current_page_ancestor a, #nav ul.dropdown ul li.current_page_item a, #nav ul.dropdown ul li.current_page_item a:hover, #nav ul.dropdown ul li.current_page_ancestor a:hover, #nav ul.dropdown ul li ul li.current_page_item a{
+	background: #f7f7f7;
+	
+}
+
+/*  LEVEL THREE */
+#nav ul.dropdown ul ul 			{ right: 100%; top: 0; }
+#nav ul.dropdown li:hover > ul 	{ display: block; }

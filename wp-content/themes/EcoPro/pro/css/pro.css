@@ -1,0 +1,400 @@
+
+#feature{
+    height: 350px;
+    width:100%;
+    position:relative;
+    z-index:0;
+    overflow: visible;
+    padding: 0 0 0 0;
+}
+
+#featurenav {
+    position:absolute;
+    bottom:14px;
+    left: 0px;
+    z-index:100;
+}
+#featurenav a, #featurenav span.playpause{
+    font-family:arial;
+    padding: 3px 8px 4px;
+    margin-right: 7px;
+    font-size: 12px;
+    color: #fff;
+    background: #4C6E10;
+
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#featurenav a.activeSlide, #featurenav span:hover{
+
+    background: #fff;
+    color: #000;
+}
+
+#featurenav span.playpause {
+    cursor: pointer;
+    padding: 3px 3px 4px;
+    background-color: #4C6E10;
+}
+#featurenav span.playpause.pause span{
+    padding: 3px 8px 4px;
+    background: transparent url(../../images/pause-white.png) no-repeat 3px 4px;
+}
+#featurenav span.playpause.resume span{
+    padding: 3px 8px 4px;
+    background: transparent url(../../images/play-white.png) no-repeat 3px 4px;
+}
+
+
+
+.fcontent {
+    color: #fff;
+    position: relative;
+}
+#feature .fcontent {
+    padding: 0 30px 0 0 ;
+    width: 450px;
+    float: left;
+    height: 330px;
+    font-size: 1.7em;
+    display: inline;
+    text-shadow: #000 0 -1px 0;
+    display:none;
+}
+
+.fcontent h1, .fcontent h2, .fcontent h3, .fcontent h4, .fcontent h5, .fcontent h6{
+    color:#fff;
+    line-height: 1em;
+    margin: 0;
+    padding:0;
+} 
+.fcontent .fheading {
+    margin-bottom: .5em;
+    margin-top: 45px;
+}
+.fcontent .ftitle{
+    font-size: 55px;
+    font-weight: bold;
+
+    line-height: 1.2em;
+    vertical-align: middle;
+}
+.fcontent .fsub {
+    font-size: 25px;
+    margin: -5px 0;
+}
+
+.fcontent .ftext{
+    line-height: 1.1em;
+}
+.fcontent p{
+}
+.fcontent a {
+    color:#fff;
+    border-bottom: 1px dotted #fff;
+}
+.fcontent a.featurelink{
+    border: none;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    padding-right: 26px;
+    background: url(../../images/more.png) no-repeat 90% 50%;
+}
+
+.fcontent a.featurelink:hover{
+    color: #eee;
+}
+
+.fmedia {  
+    padding: 0;  
+    overflow:hidden;
+} 
+#feature .fmedia{
+    float: left;
+    margin-left:-150px;
+    overflow: visible;
+}
+
+.fmedia img {  
+    top:  0;
+    left: 0;
+}
+
+#highlight {
+    width: 100%;
+    margin:0;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    text-shadow: #000 0 -1px 0;
+}
+
+#highlight .content {
+}
+#highlight h1 {	text-align: left; margin-bottom: 12px;}
+#highlight p, #highlight .fcontent{	text-align: left;  }
+
+#maincontent #highlight p, #maincontent #highlight .fcontent {color: #fff; }
+
+#highlight .fcontent {
+    float: left;
+    width: 350px;
+    padding: 50px 0;
+}
+#highlight .fcontent a{border-bottom: 1px solid #fff;}
+#highlight .fmedia {
+    padding-top: 20px;
+    width: 520px;
+    margin: 40px 20px;
+    float: right;
+}
+
+/* fboxes */
+.fboxes {
+    width: 960px;
+}
+
+.fboxes .fbox {
+    display: inline; /* IE thing */
+    float: left;
+    width: 320px;
+    margin-top: -30px;
+}
+.fboxcopy {
+    padding: 5px 30px 25px 0;
+}
+
+.fboxes p {
+    margin-bottom: 10px;
+}
+.fboxes ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+.fboxes ul li, #morefoot p {
+    font-size: 11px;
+}
+.fboxes ul a {
+    text-decoration: underline;
+    color: #333;
+}
+.fboxes a:hover {
+    text-decoration: underline;
+}
+.fboxes .fboxtitle h3, 	#morefoot h3 {
+    margin-bottom:0.3em;
+    padding: 0 0 2px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.fboxes #searchbox {
+    padding: 1px;
+    width: 160px;
+}
+
+.fboxes li {
+    margin-bottom: 5px;
+    line-height: 17px; /* Required for cross-browser consistency; cross-browser defaults vary. */
+}
+
+
+/* Twit Footer */
+#twitfooter {
+    background: transparent url(../../images/twitfooter.png) no-repeat top center;
+    height: 70px;
+}
+#twitfooter .content .tbubble{
+    padding: 12px;
+    text-shadow: #fff 0 1px 0;
+    color: #666;
+}
+
+
+/* morefoot */
+#morefoottop{
+    height: 5px;
+    background: #fff url(../../images/bg-morefoot-top.png) repeat-x left bottom;
+}
+#morefoot{
+    margin: 0;
+    background:#fff;
+    border-top: 1px solid #ddd;
+    padding: 1px;
+    text-shadow: #FFF 0 1px 0;
+}
+#morefoot h3{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 0 0 8px 0;
+    text-transform: uppercase;
+}
+#morefoot .widget ul{margin-left:10px;}
+#morefoot .widget ul li{
+    padding: 0;
+    border:none;
+}
+#morefoot .morefoot_back {
+    background: #f7f7f7 url(../../images/bg_whitepage.png) repeat-x left bottom;
+    padding: 20px;
+}
+#morefoot #morefootbg{width: 1000px;}
+#morefoot .wcontain {
+    width:310px;
+    margin-right: 20px;
+    float: left;
+    display: inline;
+    padding: 1px;
+}
+#morefoot .widget{
+    padding-right: 30px;
+
+
+}
+
+
+#content_sidebar{
+    margin: 1em 0;
+    padding: 1em 0 ;
+}
+#content_sidebar ul{
+}
+#content_sidebar ul ul{
+    padding: 3px;
+}
+
+#content_sidebar .widget, #fullwidth_bottom_widgets .widget{ margin-bottom: 1em;}
+
+#content_sidebar h3, #fullwidth_bottom_widgets h3{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f7f7f7;
+    padding: 5px 8px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-shadow: #fff 0 -1px 0;
+}
+
+/* Flickr */
+#sidebar .widget_flickrRSS.widget{
+
+}
+#sidebar .widget_flickrRSS.widget ul{
+    margin: 7px 3px 3px 3px;
+}
+#sidebar .widget_flickrRSS.widget ul li{display:inline;padding:0;margin:0;}
+
+.widget_flickrRSS a img{margin:6px 5px 6px 5px}
+.widget_flickrRSS a img {
+    font-size: 10px;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+/* ads */
+/* wp125 Ads */
+#sidebar .wp125_write_ads_widget.widget{
+    border:none;
+    padding:0;
+    margin:0 0 1em 0;
+}
+#sidebar .wp125_write_ads_widget.widget .wtitle{display: none;}
+.wp125_write_ads_widget.widget .winner {
+    width: 320px;
+    padding:0;
+    line-height: 1px;
+}
+
+.wp125_write_ads_widget.widget #wp125adwrap_2c .wp125ad a{
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 7px;
+    background: #fff;
+    width: 125px;
+    margin: 7px 17px 8px 0;
+    display: block;
+}
+
+.wp125_write_ads_widget {
+    padding: 10px 8px;
+}
+#sidebar  .winner #wp125adwrap_2c {
+    margin-left:1px;
+    width:100%;
+}
+#sidebar #wp125adwrap_2c .wp125ad{
+    padding: 0;
+    width: auto;
+}
+#wp125adwrap_2c .wp125ad a{ 
+    margin: 6px;
+    display: block;
+    float:left;
+    height: 125px;
+    width:125px;
+    border: 1px solid transparent;
+
+}
+
+
+
+/* Page Navi */
+.contentcontainer .wp-pagenavi {
+    margin:1.6em .4em;
+}
+.contentcontainer  .wp-pagenavi span.pages {
+    border:none;
+    background: transparent;
+}
+
+.contentcontainer .content .wp-pagenavi a, .contentcontainer .content .wp-pagenavi .current, .contentcontainer .content .wp-pagenavi .extend{
+    padding: 3px 7px;
+    border: none;
+    color: #000;
+    background: #ddd;
+}
+.contentcontainer .content .wp-pagenavi a:hover, .contentcontainer .content .wp-pagenavi .current{
+    color: #fff;
+    border:none;
+    background: #555;
+} 
+
+
+/* FORMS/CONTACT ETC */
+
+.cform input {padding: 5px;font-size: 1.1em;}
+
+.cform fieldset{background: #fff;border:none;}
+.cform label {
+    display:block;
+    margin:0;
+    text-align:left;
+}
+legend{display: none;}
+.contentcontainer  .cform {margin:5px 50px;padding:0px 0;}
+.cform ol, .cform li{list-style-type: none; margin:0;padding:0;}
+.cform label {}
+.cform li{margin-bottom: .7em;}
+.cform .single{width: 97%;}
+.cform .area{width: 97%;}
+.cform .emailreqtxt,.cform .reqtxt{font-style: italic;color: #999;}
+.cf_hidden {display: none;}
+
+
+.success {
+    background: #f7f7f7;
+    padding: 15px;
+    margin-bottom: .5em;
+    font-size:1.4em;
+}
+input[type="text"].cf_error:focus {border: 1px solid #000;}
+/* Mailing List Form */
+.mailinglist .cform ol{width:262px; float: left;}
+.mailinglist .cform .single{width:97%}
+.mailinglist .cform .sendbutton{margin:21px 0 0 10px;padding: 3px 0 2px 0;}
+.linklove a{display: none;}
+
